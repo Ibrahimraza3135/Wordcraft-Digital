@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -18,14 +18,14 @@ function App() {
 
   useEffect(() => {
     const titleMap: Record<string, string> = {
-      home: 'WordcraftDigital - Professional Wikipedia Pages',
-      services: 'Our Services - WordcraftDigital',
-      why: 'Why Hire Experts - WordcraftDigital',
-      faq: 'FAQ - WordcraftDigital',
-      about: 'About Us - WordcraftDigital',
-      contact: 'Contact - WordcraftDigital',
+      home: 'Wordcraft-Digital - Professional Wikipedia Pages',
+      services: 'Our Services - Wordcraft-Digital',
+      why: 'Why Hire Experts - Wordcraft-Digital',
+      faq: 'FAQ - Wordcraft-Digital',
+      about: 'About Us - Wordcraft-Digital',
+      contact: 'Contact - Wordcraft-Digital',
     };
-    document.title = titleMap[currentPage] || 'WordcraftDigital';
+    document.title = titleMap[currentPage] || 'Wordcraft-Digital';
   }, [currentPage]);
 
   const renderPage = () => {
